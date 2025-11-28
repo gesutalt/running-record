@@ -6,15 +6,17 @@
   <title>달리기 기록장</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
-    body { font-family: sans-serif; max-width: 800px; margin: 20px auto; padding: 20px; }
-    input, select, button { padding: 8px; margin: 5px; font-size: 16px; }
-    canvas { margin-top: 30px; max-height: 400px; }
+    body { font-family: sans-serif; max-width: 800px; margin: 20px auto; padding: 20px; background: #f9fafb; }
+    input, select, button { padding: 10px; margin: 5px; font-size: 16px; border-radius: 8px; border: 1px solid #ddd; }
+    button { background: #10b981; color: white; cursor: pointer; }
+    canvas { margin-top: 30px; background: white; border-radius: 8px; max-height: 400px; }
     ul { list-style: none; padding: 0; }
     li { padding: 10px; border-bottom: 1px solid #eee; }
+    h1 { color: #10b981; }
   </style>
 </head>
 <body>
-  <div id="app"></div>
+  <div id="app">로딩 중...</div>
   <script src="main.js"></script>
 </body>
 </html>
